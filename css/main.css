@@ -16,15 +16,15 @@ body {
  }
 
 .navbar {
-    box-shadow: none !important
+    box-shadow: none !important;
 }
 
 .navbar-brand {
-    font-size: 25px !important
+    font-size: 25px !important;
 }
 
 .navbar-toggler-icon {
-    color: #fff !important
+    color: #fff !important;
 }
 
 .btn {
@@ -35,10 +35,10 @@ body {
 }
 
 .btn-primary {
-    background-color: #7289DA !important
+    background-color: #7289DA !important;
 }
 .btn-secondary {
-    background-color: #2C2F33 !important
+    background-color: #2C2F33 !important;
 }
 .heading {
     padding: 103px 50px !important;
@@ -52,7 +52,7 @@ body {
 .title {
     line-height: 50px !important;
     margin-bottom: -2px !important;
-    font-size: 36px !important
+    font-size: 36px !important;
 }
 
 .subtitle {
@@ -63,7 +63,7 @@ body {
 .features {
     text-align: center !important;
     background: #7289DA !important;
-    padding: 60px 50px !important
+    padding: 60px 50px !important;
 }
 .features .title {
     font-size: 40px !important;
