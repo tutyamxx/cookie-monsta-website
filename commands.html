@@ -24,25 +24,42 @@
             <li class="nav-item">
                 <a class="nav-link" href="./index.html">Home</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="./commands.html">Commands<span class="sr-only">(current)</a>
-            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="./tutorial.html">Tutorial</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" style="background-color:#7289DA; border-radius: 4px;" href="https://www.paypal.me/cookiemonstabot" target="_blank">BUY ME A COFFEE</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="./commands.html">Commands<span class="sr-only">(current)</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">JUMP TO</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#administrator">Administrator</a>
+                    <a class="dropdown-item" href="#utility">Utility</a>
+                    <a class="dropdown-item" href="#cookie-system">Cookie System</a>
+                    <a class="dropdown-item" href="#sound">Sound</a>
+                    <a class="dropdown-item" href="#colors">Colors</a>
+                    <a class="dropdown-item" href="#games">Games</a>
+                    <a class="dropdown-item" href="#dota2">Dota2</a>
+                    <a class="dropdown-item" href="#image-memes">Image Memes</a>
+                    <a class="dropdown-item" href="#animals">Animals</a>
+                    <a class="dropdown-item" href="#fun">Fun</a>
+                    <a class="dropdown-item" href="#nasa-space">Space</a>
+                </div>
             </li>
         </ul>
+
+        <a style="background-color:#7289DA; border-radius: 1px;" class="btn btn-outline-secondary my-2 my-sm-0 btn-round btn-sm" href="https://www.paypal.me/cookiemonstabot" target="_blank">BUY ME A COFFEE</a>
+
     </div>
 </nav>
 
 <center><div class="title" style="color: white;"><u>Commands list:</u></div></center>
 
 <center>
-    <div class="title" style="color: white;">🎩 Administrator Commands</div><br>
+    <div class="title" id="administrator" style="color: white;">🎩 Administrator Commands</div><br>
 </center>
 
 <center>
@@ -111,7 +128,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">⚙️ Utility Commands</div><br>
+    <div class="title" id="utility" style="color: white;">⚙️ Utility Commands</div><br>
 </center>
 
 <center>
@@ -261,7 +278,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🍪 Cookie System Commands</div><br>
+    <div class="title" id="cookie-system" style="color: white;">🍪 Cookie System Commands</div><br>
 </center>
 
 <center>
@@ -299,7 +316,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🔊 Sound Commands</div><br>
+    <div class="title" id="sound" style="color: white;">🔊 Sound Commands</div><br>
 </center>
 
 <center>
@@ -330,7 +347,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🎨 Colors Commands</div><br>
+    <div class="title" id="colors" style="color: white;">🎨 Colors Commands</div><br>
 </center>
 
 <center>
@@ -361,7 +378,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🎮 Game Commands (You can win Cookies 🍪)</div><br>
+    <div class="title" id="games" style="color: white;">🎮 Game Commands (You can win Cookies 🍪)</div><br>
 </center>
 
 <center>
@@ -442,7 +459,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🌋 Dota2 Commands</div><br>
+    <div class="title" id="dota2" style="color: white;">🌋 Dota2 Commands</div><br>
     <div class="subtitle" style="color: white; margin-top: -25px;">(These will only work if the user specified has the option: <b>Expose Public Match Data</b> ticked!)</div><br>
 </center>
 
@@ -474,7 +491,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">📷 Image Manipulation Meme Commands</div><br>
+    <div class="title" id="image-memes" style="color: white;">📷 Image Manipulation Meme Commands</div><br>
 </center>
 
 <center>
@@ -624,7 +641,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🦁 Animals Commands</div><br>
+    <div class="title" id="animals" style="color: white;">🦁 Animals Commands</div><br>
 </center>
 
 <center>
@@ -711,7 +728,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">💁‍♀️ Fun and Memes Commands</div><br>
+    <div class="title" id="fun" style="color: white;">💁‍♀️ Fun and Memes Commands</div><br>
 </center>
 
 <center>
@@ -924,7 +941,7 @@
 
 <br>
 <center>
-    <div class="title" style="color: white;">🌚 Space Commands</div><br>
+    <div class="title" id="nasa-space" style="color: white;">🌚 Space Commands</div><br>
 </center>
 
 <center>
@@ -967,13 +984,16 @@
     </table>
 </center>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">BACK TO TOP</button>
+
 <br><br>
 <div class="footer">Made with ❤️ by <b>tuty4amxx™#3969</b></div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
+<script type="text/javascript" src="js/now-ui-kit.min.js"></script>
+<script type="text/javascript" src="js/gotop.min.js"></script>
 
 </body>
 </html>
