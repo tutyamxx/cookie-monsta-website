@@ -245,3 +245,12 @@ table.GeneratedTable td, table.GeneratedTable th {
     height: 30px;
     margin-bottom: 35px;
 }
+
+#profilecard
+{
+    width: 370px;
+    height: 110px;
+    border-radius: 25px; 
+    -webkit-box-shadow: 0px 0px 25px 0px #ffffff; 
+    box-shadow: 0px 0px 25px 0px #ffffff;
+}
