@@ -254,3 +254,13 @@ table.GeneratedTable td, table.GeneratedTable th {
     -webkit-box-shadow: 0px 0px 25px 0px #ffffff; 
     box-shadow: 0px 0px 25px 0px #ffffff;
 }
+
+::selection
+{
+    background: #ECC891; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection
+{
+    background: #ECC891; /* Gecko Browsers */
+}
