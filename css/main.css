@@ -14,6 +14,16 @@ body
     position: relative;
 }
 
+#b1
+{
+    color: #ECC386;
+}
+
+#b2
+{
+    color: #3A81C4;
+}
+
 html
 {
     scroll-behavior: smooth;
